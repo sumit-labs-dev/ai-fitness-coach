@@ -46,7 +46,7 @@ def generate_workout_plan(model,   fitness_goal, experience_level, days_per_week
                 }
                 ],
                 temperature=0.7,
-                max_tokens = 700,
+                max_tokens = 2000,
             )
     return response.choices[0].message.content
 
