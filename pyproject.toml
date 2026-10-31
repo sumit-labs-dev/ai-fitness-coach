@@ -1,0 +1,12 @@
+[project]
+name = "fitness-ai"
+version = "0.1.0"
+description = "FastAPI + Streamlit + Groq application"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.3",
+    "groq>=1.2.0",
+    "streamlit>=1.50.0",
+]
